@@ -1,0 +1,29 @@
+{
+  "name": "csc346server",
+  "version": "0.1.0",
+  "description": "Weather Application that shows the weather for the area",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devinmattoon/csc346server.git"
+  },
+  "keywords": [
+    "weather",
+    "api",
+    "javascript",
+    "promises"
+  ],
+  "author": "Devin Mattoon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devinmattoon/csc346server/issues"
+  },
+  "homepage": "https://github.com/devinmattoon/csc346server#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
