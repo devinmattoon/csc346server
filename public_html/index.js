@@ -39,5 +39,6 @@ function viewCities(response) {
         cities += '<option value="' + item.lat + " " + item.long + '">' + item.city + '</option>';
     });
     document.getElementById("city").innerHTML = cities;
+    document.getElementById("city").style.visibility = "visible";
 }
 getStates();
