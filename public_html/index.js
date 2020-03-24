@@ -1,6 +1,6 @@
 console.log("I was here");
 
-const states = "http://localhost:8080/cities/00states.json";
+const states = "/cities/00states.json";
 function getStates() {
     fetch(states)
         .then(response => {
